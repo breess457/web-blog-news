@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="../../../Assets/stylesheet/web/signup.scss">
+    
+    <title>Sign Page</title>
+</head>
+<body>
+        <div class="login-reg-panel">
+		<div class="login-info-box">
+			<h2>บัญชีทั่วไป</h2>
+			<p>สามารถดูคำแนะต่างๆในเว็ปไซต์นี้ได้ สามารถค้นหาและติดต่อกับที่ปรึกษาได้</p>
+			<label id="label-register" for="log-reg-show">ผู้ใช้งานทั่วไป</label>
+			<input type="radio" name="active-log-panel" id="log-reg-show"  checked="checked">
+		</div>
+							
+		<div class="register-info-box">
+			<h2>ผู้ให้คำแนะนำ</h2>
+			<p>เผยแพร่คำแนะนำ และผู้เป็นที่ปรึกษา เขียนบทความสูขภาพต่างๆ</p>
+			<label id="label-login" for="log-login-show">ที่ปรึกษา</label>
+			<input type="radio" name="active-log-panel" id="log-login-show">
+		</div>
+							
+		<div class="white-panel">
+			<div class="login-show">
+				<div id="p_message" class="mt-0 mb-0"></div>
+				<h2>สมัคบัญชีทั่วไป</h2>
+				<main-login></main-login>
+			</div>
+			<div class="register-show">
+				<div id="a_message"></div>
+				<h2>สมัคเป็นที่ปรึกษา</h2>
+				<main-signup></main-signup>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<script src="api.js"></script>
+</body>
+</html>

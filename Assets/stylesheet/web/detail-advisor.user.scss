@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+
+body{
+	background: #e8e8e8;
+}
+
+.bio-info{
+	padding: 2%; 
+	background:#fff;
+	box-shadow: 0px 0px 4px 0px #b0b3b7;
+}
+.name{
+	font-family: 'Charmonman', cursive;
+	font-weight:600;
+}
+.bio-image{
+	text-align:center;
+}
+.bio-image img{
+	border-radius:5%;
+	width: 240px;
+	height: 240px;
+	border: #7ffdd5 3px solid;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.bio-content{
+	text-align:left;
+}
+.bio-content p{
+	font-weight:600;
+	font-size:30px;
+}
+
+.col-md-4 .card .my-card
+{
+    position:absolute;
+    left:30%;
+    top:-25px;
+    border-radius:50%;
+}
+
+/* cart article */
+.card-img-top{
+    height: 150px;
+    background-repeat:repeat;
+    object-fit: cover;
+    object-position: top;
+	background-attachment: fixed;  
+  	background-size: cover;
+}
+.card-body .card-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.btnviewarticle{
+    background: linear-gradient(135deg,#3afe4a 0%,#58fef0 100%);
+    width: 100%;
+    height: 30px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding-top: 2px;
+    text-align: center;
+    font-weight: 500;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}

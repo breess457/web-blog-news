@@ -1,0 +1,67 @@
+@import url(https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css);
+@import url(https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Thasadith&display=swap');
+
+.set-font-thai{
+	font-family: 'Prompt', sans-serif;
+}
+.font-thasadith{
+	font-family: 'Thasadith', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p,small,strong,b,input[type=text],input[type=password]{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+  border-bottom: solid rgb(119, 117, 117) 1px;
+}
+.navbar.top-bar {
+  border-radius: 0;
+  padding: 16px 0;
+  z-index: 16;
+}
+.navbar-toggler {
+  border: 1px solid #fff;
+  color: #fff;
+  position: absolute;
+  right: 21px;
+}
+.sps {
+  padding: 1em 0.5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.25s ease;
+  width: 100%;
+}
+.sps--abv {
+  background-color: transparent;
+  color: #000;
+}
+.navbar-brand {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.nav-link {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgb(247, 9, 227);
+}
+
+@media(min-width:576px){
+  .modal-dialog-centered{
+    max-width: 400px;
+    .modal-content{
+      padding: 1rem;
+    }
+  }
+}
+.modal-header{
+  .close{
+    margin-top: -1.5rem;
+  }
+}
